@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 2</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<div class="center">
+    <div th:replace="fragments/_header :: header"></div>
+    <h1>Step 2: Creating a New Snip</h1>
+    <img th:src="@{/img/snipping-tool.png}">
+    <p>Now that you have opened the snipping tool, click the button labelled "New"
+    to start creating a snip. After clicking the button, your screen will have a grey overlay.
+    While the screen is grey, hold the left mouse button down on the top left area of what you want to snip
+    and then drag your mouse to the bottom right of what you want to snip. This should create a
+    rectangle around what you want to snip that makes it stop being grey.
+    Let go of the right mouse button to create a snip of the normally colored area.</p>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 1</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<div class="center">
+    <div th:replace="fragments/_header :: header"></div>
+    <h1>Step 1: Opening Snipping Tool</h1>
+    <p>For the first step, you will need to open the snipping tool.
+        To do this, you will need to go to the bottom left hand side of your screen and
+        then left-click on the search bar. Next, type in "snipping tool" as shown in the image below.
+        Click the first result that says "Snipping Tool" and it should open.</p>
+
+    <img th:src="@{/img/search-snipping-tool.PNG}">
+</div>
+
+
+</body>
+</html>

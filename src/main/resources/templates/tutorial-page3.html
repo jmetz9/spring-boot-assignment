@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 3</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<div class="center">
+    <div th:replace="fragments/_header :: header"></div>
+    <h1>Step 3: Saving Your Snip</h1>
+    <p>After releasing your left mouse button, you should be able to see
+    something similar to the image below(Your snip should be where the grey/black area is).
+    To save your snip, simply click the floppy disk icon to the right of the "Delay" button, name the file
+    on the next screen, and then click save.</p>
+    <img th:src="@{/img/snip-example.png}">
+
+</div>
+
+</body>
+</html>

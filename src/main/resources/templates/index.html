@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<div class="center">
+    <div th:replace="fragments/_header :: header"></div>
+    <h1>How To Use The Snipping Tool</h1>
+    <img th:src="@{/img/snipping-tool-logo.png}">
+    <p>The snipping tool is a very useful tool included in Windows 10 that allows
+        you to take a snapshot of a certain part of your screen. To follow this tutorial, you will need
+        the following couple of things</p>
+    <ul>
+        <li>Windows 10</li>
+        <li>A Working Keyboard and Mouse</li>
+    </ul>
+</div>
+
+</body>
+</html>
